@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="imjustaregulareverydaynormalmotherfucker0hql49">
+  <Properties>
+    <Name>ndeviant's fuck religion</Name>
+    <Stability>Release</Stability>
+    <Teaser>1 missionary, SUICIDE APOSTLES, buffed inquisition, gurus untouched</Teaser>
+    <Description>
+
+      I always start a war with AI when he tries to convert my cities, fucking hate that. [NEWLINE]
+      Main purpose to use vs AI. There is other mod, with same purpose, 
+      which makes religious units not to ignore borders but, 
+      AI still spawns alot of units and siedge your borders with them. [NEWLINE]
+      [NEWLINE]
+      Now, you can only use: [NEWLINE]
+      - 1 [COLOR_Green]missionary[ENDCOLOR] ( you'll see the cost on second one ;) ); [NEWLINE]
+      - [COLOR_Green]Inquisitors[ENDCOLOR], that cannot convert other cities, become
+      available after building a shrine and dont require inquisition. [NEWLINE]
+      - [COLOR_Green]Suicide Apostles[ENDCOLOR]: still can be used to gain relics, Evangelize Belief, 
+      or even start the inquisition, in case you need some era points.
+      Useless for conversion of other cities. [NEWLINE]
+      - [COLOR_Green]Guru's[ENDCOLOR]: I don't care about them. Untouched [NEWLINE]
+      [NEWLINE]
+      [COLOR_Red]NOTE[ENDCOLOR]: Marked this mod to work with saved games, but units that are already created
+      won't change their stats. Will only work with new ones
+    </Description>
+    <Authors>ndeviant</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <SupportsMultiplayer>0</SupportsMultiplayer>
+    <SupportsHotSeat>0</SupportsHotSeat>
+  </Properties>
+  <InGameActions>
+    <UpdateDatabase id="remove_pidors">
+      <Properties>
+        <LoadOrder>12001</LoadOrder>
+      </Properties>
+      <File>sql.sql</File>
+    </UpdateDatabase>
+  </InGameActions>
+  <Files>
+    <File>sql.sql</File>
+  </Files>
+</Mod>
